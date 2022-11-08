@@ -2,7 +2,6 @@ import datetime
 
 today = datetime.date.today()
 
-
 global CURRENT_YEAR
 CURRENT_YEAR = today.year
 
@@ -19,8 +18,6 @@ def wykonac_program():
         print("I think you're a woman!!")
     else:
         print("I think you're a man!!")
-
-
 
 
 if __name__ == '__main__':
