@@ -11,13 +11,20 @@
 # print(fibonacci)
 
 
-f1 = f2 = 1
-n = 6
-print(f1, f2, end=' ')
+# f1 = f2 = 1
+# n = 6
+# print(f1, f2, end=' ')
+#
+# for i in range(2, n):
+#     f1, f2 = f2, f1 + f2
+#     print(f2, end=' ')
 
-for i in range(2, n):
-    f1, f2 = f2, f1 + f2
-    print(f2, end=' ')
-
-
+n = int(input())
+a = 2
+while n > 0:
+    operation = input()
+    if operation == "L":
+        print(a)
+    a *= 2
+    n -= 1
 
